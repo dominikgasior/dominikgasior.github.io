@@ -1,16 +1,15 @@
  .u-section-1 {
   background-image: url("images/bgw.jpg");
   background-position: 50% 50%;
-  min-height: 667px;
+  min-height: 535px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: calc(((100% - 1140px) / 2) + 1362px);
-  margin: 0 0 0 auto;
+  margin: 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 667px;
+  min-height: 535px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -23,7 +22,7 @@
   line-height: 1.8;
   font-size: 1.5rem;
   font-weight: normal;
-  margin: 151px 0 0;
+  margin: 101px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -36,11 +35,11 @@
 
 .u-section-1 .u-text-3 {
   font-size: 1.25rem;
-  margin: 24px auto 0 0;
+  margin: 24px auto 0;
 }
 
 .u-section-1 .u-countdown-1 {
-  margin: 24px auto 0 0;
+  margin: 24px auto 0;
 }
 
 .u-section-1 .u-countdown-counter-1 {
@@ -140,9 +139,8 @@
 }
 
 .u-section-1 .u-image-1 {
-  min-height: 667px;
+  min-height: 400px;
   background-image: url("images/ENROUTEPHOTOGRAPHY0038-min.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -151,29 +149,27 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 157px;
+    min-height: 371px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 940px) / 2) + 940px);
+    position: relative;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 518px;
+    min-height: 441px;
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 422px;
+    min-height: 330px;
   }
 }
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 10px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 720px) / 2) + 720px);
+    min-height: 294px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -184,36 +180,23 @@
     padding: 30px;
   }
 
-  .u-section-1 .u-text-1 {
-    font-size: 1.125rem;
-  }
-
-  .u-section-1 .u-text-2 {
-    font-size: 3rem;
-  }
-
   .u-section-1 .u-image-1 {
-    min-height: 323px;
+    min-height: 253px;
   }
 }
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 199px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: calc(((100% - 540px) / 2) + 540px);
+    min-height: 521px;
   }
 
   .u-section-1 .u-container-layout-1 {
-    padding-top: 50px;
-    padding-right: 200px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 440px;
+    min-height: 380px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -224,54 +207,15 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 193px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 404px;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-top: 60px;
-    padding-left: 9px;
-    padding-right: 9px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: 330px;
-    margin-top: 27px;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 380px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 2.25rem;
-    width: 330px;
-    margin-top: 17px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-section-1 .u-text-3 {
-    width: auto;
-    margin-top: 17px;
-    margin-left: auto;
-  }
-
-  .u-section-1 .u-countdown-1 {
-    margin-top: 17px;
-    margin-left: auto;
+    font-size: 1.875rem;
   }
 
   .u-section-1 .u-image-1 {
-    background-position: 23.61% 50%;
-    min-height: 210px;
+    min-height: 239px;
   }
 } .u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/ENROUTEPHOTOGRAPHY0022-min.jpg");
@@ -568,7 +512,7 @@
 .u-section-3 .u-text-2 {
   font-size: 1.125rem;
   font-style: italic;
-  margin: 20px auto 0 0;
+  margin: 20px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -578,7 +522,6 @@
 
   .u-section-3 .u-image-1 {
     min-height: 570px;
-    background-size: 110%;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -631,6 +574,7 @@
   }
 
   .u-section-3 .u-image-1 {
+    min-height: 413px;
     background-position: 44.35% 50%;
   }
 
@@ -646,7 +590,6 @@
   .u-section-3 .u-text-2 {
     width: auto;
     margin-top: 22px;
-    margin-right: 0;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 896px;
